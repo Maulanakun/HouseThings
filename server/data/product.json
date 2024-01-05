@@ -1,0 +1,62 @@
+[
+    {   
+        "id":1, 
+        "name":"KLIPPAN",
+        "description":"Kami meluncurkan sofa KLIPPAN pada 1980-an dan sampai sekarang masih menjadi favorit. Nyaman, pas hampir di mana-mana dan memiliki banyak sarung untuk dipilih. Klasik modern dan abadi!",
+        "price":3495000,
+        "stock":42,
+        "imgUrl":"https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/700/1170078_PE892659_S4.webp",
+        "categoryId":2,
+        "authorId":1
+    },
+    {   
+        "id":2, 
+        "name":"VINLIDEN",
+        "description":"Duduk atau berbaring di sofa VINLIDEN terasa seperti pelukan yang nyaman. Anda tenggelam ke dalam bantal besar yang lembut, dan sofanya juga sangat mudah dipasang dan dibongkar sehingga Anda dapat membawanya jika pindah!",
+        "price":6195000,
+        "stock":31,
+        "imgUrl":"https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/527/0852701_PE780209_S4.webp",
+        "categoryId":2,
+        "authorId":1
+    },
+    {   
+        "id":3, 
+        "name":"LANDSKRONA",
+        "description":"Hangat dan ramah, rapi dan bergaya. Bantal kursi penyangga, sarung yang lembut dan pelengkap yang ketat membuat kursi ini memiliki keseimbangan sempurna antara kenyamanan, fungsi, dan tampilan.",
+        "price":12895000,
+        "stock":40,
+        "imgUrl":"https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/527/0852701_PE780209_S4.webp",
+        "categoryId":2,
+        "authorId":1
+    },
+    {   
+        "id":4, 
+        "name":"MICKE",
+        "description":"Tampilan baru dan sederhana cocok diletakkan di mana saja. Anda dapat memadukannya dengan meja kerja atau unit laci dalam seri MICKE untuk memperpanjang ruang kerja. Desain cerdas di bagian belakang mampu menyembunyikan kabel kusut.",
+        "price":999000,
+        "stock":15,
+        "imgUrl":"https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/360/0736022_PE740349_S4.webp",
+        "categoryId":3,
+        "authorId":1
+    },
+    {   
+        "id":5, 
+        "name":"HAUGA",
+        "description":"Gunakan di seluruh rumah, sendiri atau dengan perabotan lain dalam seri HAUGA. Meja berwarna krem ini memiliki ruang untuk Anda berkreasi atau belajar dari rumah - dan tempat penyimpanan tersembunyi untuk barang-barang yang ingin Anda sembunyikan.",
+        "price":999000,
+        "stock":15,
+        "imgUrl":"https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/360/0736022_PE740349_S4.webp",
+        "categoryId":3,
+        "authorId":1
+    },
+    {   
+        "id":6, 
+        "name":"MICKE",
+        "description":"Tampilan baru dan sederhana cocok diletakkan di mana saja. Anda dapat memadukannya dengan meja kerja atau unit laci dalam seri MICKE untuk memperpanjang ruang kerja. Desain cerdas di bagian belakang mampu menyembunyikan kabel kusut.",
+        "price":999000,
+        "stock":15,
+        "imgUrl":"https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/360/0736022_PE740349_S4.webp",
+        "categoryId":3,
+        "authorId":1
+    }   
+]

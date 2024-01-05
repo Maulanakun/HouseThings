@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- header start -->
+    <header class="py-4 shadow-sm bg-red">
+        <div class="container flex items-center justify-between">
+            <!-- logo -->
+            <a href="#">
+                <img src="/asset/image/house_5.png" class="w-32">
+            </a>
+            <!-- search -->
+            <div class="w-full max-w-xl relative flex">
+                <span class="absolute left-4 top-3 text-lg text-gray-400">
+                    <i class="fas fa search"></i>
+                </span>
+                <input type="text" class="w-full border border-primary border-r-0 pl-12 py-3 pr-3 rounded-l-md focus:outline-none" placeholder="search">
+                <button class="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition">search</button>
+            </div>
+            <!-- icons -->
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                    <div class="text-2xl">
+                        <i class="fa fa-heart fa-heart-white"></i>
+                    </div>
+                    <div class="text-xs leading-3">Wishlist</div>
+                    <div class="absolute right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">8</div>
+                </a>
+                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                    <div class="text-2xl">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="text-xs leading-3">Account</div>
+                    <div class="absolute right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">?</div>
+
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- navbar -->
+    <nav class="bg-gray-800">
+        <div class="container flex">
+            <!-- all category -->
+            <div class="px-8 py-4 bg-primary md:flex items-center cursor-pointer relative group hidden">
+                <span class="text-white">
+                    <i class="fa fa-bars"> All Categories</i>
+                </span>
+                <span class="capitalize ml-2 text-white hidden"></span>
+
+                <!-- dropdown -->
+                <div
+                    class="absolute w-full left-0 top-full bg-white shadow-md py-3 divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible">
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <img src="/asset/image/lemari-18.png" alt="Lemari" class="w-5 h-5 object-contain">
+                        <span class="ml-6 text-gray-600 text-sm">Lemari</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <img src="/asset/image/Sofa.jpg" alt="Sofa" class="w-5 h-5 object-contain">
+                        <span class="ml-6 text-gray-600 text-sm">Sofa</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <img src="/asset/image/meja kerja rumah.jpg" alt="MejaKerja" class="w-5 h-5 object-contain">
+                        <span class="ml-6 text-gray-600 text-sm">Meja Kerja</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <img src="/asset/image/Kursi tanpa pelapis.jpg" alt="Kursi" class="w-5 h-5 object-contain">
+                        <span class="ml-6 text-gray-600 text-sm">Kursi Tanpa Pelapis</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <img src="/asset/image/Bantal Kursi.jpg" alt="bantalKursi" class="w-5 h-5 object-contain">
+                        <span class="ml-6 text-gray-600 text-sm">Bantal Kursi</span>
+                    </a>
+                    <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <img src="/asset/image/kasur.png" alt="kasur" class="w-5 h-5 object-contain">
+                        <span class="ml-6 text-gray-600 text-sm">Kasur</span>
+                    </a>
+                
+                </div>
+            </div>
+            <!-- all category end-->
+            <!-- navbar link-->
+            <div class="flex items-center justify-between flex-grow pl-12">
+                <div class="flex items-center space-x-6 capitalize">
+                    <a href="index.html" class="text-gray-200 hover:text-white transition">Home</a>
+                    <a href="pages/shop.html" class="text-gray-200 hover:text-white transition">Shop</a>
+                    <a href="#" class="text-gray-200 hover:text-white transition">About us</a>
+                    <a href="#" class="text-gray-200 hover:text-white transition">Contact us</a>
+                </div>
+                <a href="" class="text-gray-200 hover:text-white transition">Login/Register</a>
+            </div>
+        </div>
+    </nav>
+    <!-- banner -->
+    
+    <div class="bg-cover bg-no-repeat bg-center py-36" style="background-image: url('/asset/image/banner-bg.jpg');">
+        <div class="container">
+            <h1 class="text-6xl text-gray-800 font-medium mb-4 capitalize">
+                best collection for <br> home decoration
+            </h1>
+            <p>Disini kami menyediakan furniture yang nyaman dan kuat <br>
+                Tidak hanya nyaman furniture ini sangat estetik sangat cocok dirumah anda</p>
+            <div class="mt-12">
+                <a href="#" class="bg-primary border border-primary text-white px-8 py-3 font-medium 
+                    rounded-md hover:bg-transparent hover:text-primary">Shop Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+
+    <!-- features -->
+    <div class="container py-16">
+        <div class="w-10/12 grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto justify-center">
+            <div class="border border-primary rounded-sm px-3 py-6 flex justify-center items-center gap-5">
+                <img src="/asset/image/van.svg" alt="Delivery" class="w-12 h-12 object-contain">
+                <div>
+                    <h4 class="font-medium capitalize text-lg">Gratis Ongkir</h4>
+                    <p class="text-gray-500 text-sm">Order over Rp.1.500.000.00</p>
+                </div>
+            </div>
+            <div class="border border-primary rounded-sm px-3 py-6 flex justify-center items-center gap-5">
+                <img src="/asset/image/money.svg" alt="Delivery" class="w-12 h-12 object-contain">
+                <div>
+                    <h4 class="font-medium capitalize text-lg">Money Returns</h4>
+                    <p class="text-gray-500 text-sm">Garansi sampai 30 Hari</p>
+                </div>
+            </div>
+            <div class="border border-primary rounded-sm px-3 py-6 flex justify-center items-center gap-5">
+                <img src="/asset/image/call-chat.svg" alt="Delivery" class="w-12 h-12 object-contain">
+                <div>
+                    <h4 class="font-medium capitalize text-lg">24/7 Support</h4>
+                    <p class="text-gray-500 text-sm">Customer support</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- features -->
+    <!-- product -->
+    <div class="container pb-16">
+        <h2 class="text-2xl font-medium text-gray-800 uppercase mb-6">recomended for you</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-white shadow rounded overflow-hidden group">
+                <div class="relative">
+                    <img src="/asset/image/KLIPPAN.webp" alt="product 1" class="w-full">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                    justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                        <a href="#"
+                            class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                            title="view product">
+                            <i class="fa fa-eye"></i>
+                        </a>
+                        <a href="#"
+                            class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                            title="add to wishlist">
+                            <i class="fa fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="pt-4 pb-3 px-4">
+                    <a href="#">
+                        <h4 class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">KLIPPAN</h4>
+                    </a>
+                    <div class="flex items-baseline mb-1 space-x-2">
+                        <p class="text-xl text-primary font-semibold">Rp.3.495.000</p>
+                        <p class="text-sm text-gray-400 line-through">Rp.4.495.000</p>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="flex gap-1 text-sm text-yellow-400">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="text-xs text-gray-500 ml-3">Stock(42)</div>
+                    </div>
+                </div>
+                <a href="#"
+                    class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add
+                    to cart</a>
+            </div>
+            <div class="bg-white shadow rounded overflow-hidden group">
+                <div class="relative">
+                    <img src="/asset/image/VINLIDEN.webp" alt="product 1" class="w-full">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                    justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                        <a href="#"
+                            class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                            title="view product">
+                            <i class="fa fa-eye"></i>
+                        </a>
+                        <a href="#"
+                            class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                            title="add to wishlist">
+                            <i class="fa fa-heart fa-heart-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="pt-4 pb-3 px-4">
+                    <a href="#">
+                        <h4 class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">VINLIDEN</h4>
+                    </a>
+                    <div class="flex items-baseline mb-1 space-x-2">
+                        <p class="text-xl text-primary font-semibold">Rp.6.195.000</p>
+                        <p class="text-sm text-gray-400 line-through">Rp.9.195.000</p>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="flex gap-1 text-sm text-yellow-400">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star-half"></i></span>
+                        </div>
+                        <div class="text-xs text-gray-500 ml-3">Stock(150)</div>
+                    </div>
+                </div>
+                <a href="#"
+                    class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add
+                    to cart</a>
+            </div>
+            <div class="bg-white shadow rounded overflow-hidden group">
+                <div class="relative">
+                    <img src="/asset/image/LANDSKRONA.webp" alt="product 1" class="w-full">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                    justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                        <a href="#"
+                            class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                            title="view product">
+                            <i class="fa fa-eye"></i>
+                        </a>
+                        <a href="#"
+                            class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                            title="add to wishlist">
+                            <i class="fa fa-heart fa-heart-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="pt-4 pb-3 px-4">
+                    <a href="#">
+                        <h4 class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">LANDSKRONA</h4>
+                    </a>
+                    <div class="flex items-baseline mb-1 space-x-2">
+                        <p class="text-xl text-primary font-semibold">Rp.9.195.000</p>
+                        <p class="text-sm text-gray-400 line-through">Rp.12.895.000</p>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="flex gap-1 text-sm text-yellow-400">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star-half"></i></span>
+                        </div>
+                        <div class="text-xs text-gray-500 ml-3">(150)</div>
+                    </div>
+                </div>
+                <a href="#"
+                    class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add
+                    to cart</a>
+            </div>
+            <div class="bg-white shadow rounded overflow-hidden group">
+                <div class="relative">
+                    <img src="/asset/image/HAUGA.webp" alt="product 1" class="w-full">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                    justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                        <a href="#"
+                            class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                            title="view product">
+                            <i class="fa fa-eye"></i>
+                        </a>
+                        <a href="#"
+                            class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                            title="add to wishlist">
+                            <i class="fa fa-heart fa-heart-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="pt-4 pb-3 px-4">
+                    <a href="#">
+                        <h4 class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">HAUGA</h4>
+                    </a>
+                    <div class="flex items-baseline mb-1 space-x-2">
+                        <p class="text-xl text-primary font-semibold">Rp.999.000</p>
+                        <p class="text-sm text-gray-400 line-through">Rp.12.895.000</p>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="flex gap-1 text-sm text-yellow-400">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star-half"></i></span>
+                        </div>
+                        <div class="text-xs text-gray-500 ml-3">Stock(15)</div>
+                    </div>
+                </div>
+                <a href="#"
+                    class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add
+                    to cart</a>
+            </div>
+    </div>
+    <div class="join grid grid-cols-2">
+        <button class="join-item btn btn-outline">Previous page</button>
+        <button class="join-item btn btn-outline">Next</button>
+    </div>
+    <div class="container grid grid-cols-2 gap-6">
+        <div>
+                <img src="/asset/image/KLIPPAN.webp" alt="product" class="w-full">
+            </div>
+        
+            <div>
+                <h2 class="text-3xl font-medium uppercase mb-2 right-1">KLIPPAN</h2>
+                <div class="flex items-center mb-4">
+                    <div class="flex gap-1 text-sm text-yellow-400">
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                    </div>
+                    <div class="text-xs text-gray-500 ml-3">(150 Reviews)</div>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-800 font-semibold space-x-2">
+                        <span>Availability: </span>
+                        <span class="text-green-600">In Stock</span>
+                    </p>
+                    <p class="space-x-2">
+                        <span class="text-gray-800 font-semibold">Brand: </span>
+                        <span class="text-gray-600">IKEA</span>
+                    </p>
+                    <p class="space-x-2">
+                        <span class="text-gray-800 font-semibold">Category: </span>
+                        <span class="text-gray-600">Sofa</span>
+                    </p>
+                </div>
+                <div class="flex items-baseline mb-1 space-x-2 font-roboto mt-4">
+                    <p class="text-xl text-primary font-semibold">Rp.3.495.000</p>
+                    <p class="text-base text-gray-400 line-through">Rp.4.495.000</p>
+                </div>
+        
+                <p class="mt-4 text-gray-600">Kami meluncurkan sofa KLIPPAN pada 1980-an dan sampai sekarang masih menjadi favorit. Nyaman, pas hampir di mana-mana dan memiliki banyak sarung untuk dipilih. Klasik modern dan abadi!</p>
+        
+               
+                <div class="mt-4">
+                    <h3 class="text-sm text-gray-800 uppercase mb-1">Quantity</h3>
+                    <div class="flex border border-gray-300 text-gray-600 divide-x divide-gray-300 w-max">
+                        <div class="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none">-</div>
+                        <div class="h-8 w-8 text-base flex items-center justify-center">4</div>
+                        <div class="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none">+</div>
+                    </div>
+                </div>
+        
+                <div class="mt-6 flex gap-3 border-b border-gray-200 pb-5 pt-5">
+                    <a href="#"
+                    class="bg-primary border border-primary text-white px-8 py-2 font-medium rounded uppercase flex items-center gap-2 hover:bg-transparent hover:text-primary transition">
+                    <i class="fa-solid fa-bag-shopping"></i> Add to cart
+                </a>
+                    <a href="#"
+                    class="border border-gray-300 text-gray-600 px-8 py-2 font-medium rounded uppercase flex items-center gap-2 hover:text-primary transition">
+                        <i class="fa-solid fa-heart"></i> Wishlist
+                    </a>
+                </div>
+        
+                <div class="flex gap-3 mt-4">
+                    <a href="#"
+                        class="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="#"
+                        class="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#"
+                        class="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+</body>
+ 
+</html>

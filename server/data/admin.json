@@ -1,0 +1,16 @@
+[
+    {
+        "email":"maul@gmail.com",
+        "password":"maulana11",
+        "role":"admin",
+        "phoneNumber": "0857727382",
+        "address":"BSD"
+    },
+    {
+        "email":"ana@gmail.com",
+        "password":"maulana11",
+        "role":"staff",
+        "phoneNumber": "0857727382",
+        "address":"BSD"
+    }
+]
